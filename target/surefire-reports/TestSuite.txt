@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 167.191 sec <<< FAILURE!
+validatePostsLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.22 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validatePostsLinkTest(HomePageTest.java:33)
+
+validateMediaLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.195 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateMediaLinkTest(HomePageTest.java:43)
+
+loginTest(com.qa.test.LoginPageTest)  Time elapsed: 2.72 sec  <<< FAILURE!
+org.testng.TestNGException: 
+Cannot inject @Test annotated Method [loginTest] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:458)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+validateYoutubeEmbedLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.139 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateYoutubeEmbedLinkTest(HomePageTest.java:52)
+
+validatePagesLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.203 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validatePagesLinkTest(HomePageTest.java:61)
+
+validateCommentsLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.149 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateCommentsLinkTest(HomePageTest.java:71)
+
+validateAppearanceLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.185 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateAppearanceLinkTest(HomePageTest.java:81)
+
+validatePluginsLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.166 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validatePluginsLinkTest(HomePageTest.java:90)
+
+validateUsersLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.204 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateUsersLinkTest(HomePageTest.java:99)
+
+validateToolsLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.185 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateToolsLinkTest(HomePageTest.java:108)
+
+validateSettingsLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.131 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateSettingsLinkTest(HomePageTest.java:117)
+
+validateAccountLinkTest(com.qa.test.HomePageTest)  Time elapsed: 0.148 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.test.HomePageTest.validateAccountLinkTest(HomePageTest.java:126)
+

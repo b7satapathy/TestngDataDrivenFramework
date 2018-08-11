@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.test.HomePageTest">
+        <methods>
+          <include name="validatePluginsLinkTest"/>
+          <include name="validateMediaLinkTest"/>
+          <include name="setUp"/>
+          <include name="validateAppearanceLinkTest"/>
+          <include name="validateSettingsLinkTest"/>
+          <include name="validateAccountLinkTest"/>
+          <include name="validateCommentsLinkTest"/>
+          <include name="validateToolsLinkTest"/>
+          <include name="validatePostsLinkTest"/>
+          <include name="validatePagesLinkTest"/>
+          <include name="closeBrowser"/>
+          <include name="validateUsersLinkTest"/>
+          <include name="validateYoutubeEmbedLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.test.HomePageTest -->
+      <class name="com.qa.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
