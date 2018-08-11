@@ -1,2 +1,4 @@
 # TestngDataDrivenFramework
-This is a TestNg Framework that I have created recently.
+This is a TestNg Framework . Data Driven Development Framework with Page Object Model approach.
+
+created by- Biswajit Satapathy.
