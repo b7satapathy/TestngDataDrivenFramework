@@ -13,7 +13,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.qa.base.TestBase;
 import com.qa.utility.Screenshot;
-import com.qa.utility.TestUtil;
+import com.qa.utility.ExcelData;
 
 @Listeners(Screenshot.class)
 public class LoginPageTest extends TestBase {
@@ -32,7 +32,7 @@ public class LoginPageTest extends TestBase {
 
 	@DataProvider
 	public Object[][] getInvalidLoginData() {
-		Object[][] data = TestUtil.getTestData("InvalidLogin");
+		Object[][] data = ExcelData.getTestData("InvalidLogin");
 		return data;
 	}
 

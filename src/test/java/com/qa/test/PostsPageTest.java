@@ -10,21 +10,21 @@ import com.qa.base.TestBase;
 
 import com.qa.page.PostsPage;
 import com.qa.utility.Screenshot;
-import com.qa.utility.TestUtil;
+import com.qa.utility.ExcelData;
 @Listeners(Screenshot.class)
 public class PostsPageTest extends TestBase{
 	
 	PostsPage postPage;
 	
 	@BeforeMethod
-	public void setUp() throws Exception {
+	public void setUp() {
 		initializeBrowser();
 		login();
 	}
 	
 	@DataProvider
 	public Object[][] getNewPostData() {
-		Object[][] data = TestUtil.getTestData("AddNewPost");
+		Object[][] data = ExcelData.getTestData("AddNewPost");
 		return data;
 	}
 	

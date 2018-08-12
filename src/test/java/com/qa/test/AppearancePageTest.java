@@ -11,8 +11,9 @@ import com.qa.utility.Screenshot;
 public class AppearancePageTest extends TestBase{
 	
 	@BeforeMethod
-	public void setUp() throws Exception {
-		initialization();
+	public void setUp() {
+		initializeBrowser();
+		login();
 	}
 @AfterMethod
 	public void closeBrowser() {

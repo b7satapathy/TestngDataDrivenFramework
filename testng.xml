@@ -3,6 +3,7 @@
 <suite name="BiswajitSatapathyTestNGFramework">
 <listeners>
 <listener class-name="com.qa.analyzer.Transformer"></listener>
+<listener class-name="com.qa.utility.ExtentReport"></listener>
 
 </listeners>
 
